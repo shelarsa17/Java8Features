@@ -17,8 +17,10 @@ public class Test {
 		list.add(7);
 		list.add(11);
 		
-		List<Integer> list2=list.stream().filter(i->i<=10).collect(Collectors.toList());
-		System.out.println(list2);
+		/*List<Integer> list2=list.stream().filter(i->i<=10).collect(Collectors.toList());
+		System.out.println(list2);*/
+		
+		System.out.println(list);
 		
 	}
 
