@@ -17,7 +17,10 @@ public class Test {
 		list.add(7);
 		list.add(11);
 		
-		list.stream().forEach(i->System.out.println(i));
+		Integer id=list.stream().min((s1,s2)->s1.compareTo(s2)).get();
+		System.out.println(id);
+		
+		//list.stream().forEach(i->System.out.println(i));
 		
 		
 		/*List<Integer> list2=list.stream().filter(i->i<=10).collect(Collectors.toList());
