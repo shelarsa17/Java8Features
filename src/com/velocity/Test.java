@@ -17,10 +17,13 @@ public class Test {
 		list.add(7);
 		list.add(11);
 		
+		list.stream().forEach(i->System.out.println(i));
+		
+		
 		/*List<Integer> list2=list.stream().filter(i->i<=10).collect(Collectors.toList());
 		System.out.println(list2);*/
 		
-		System.out.println(list);
+		//System.out.println(list);
 		
 	}
 
